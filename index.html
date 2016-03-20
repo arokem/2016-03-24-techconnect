@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
-
       body { font-family: "Encode Sans Normal", serif }
       h1, h2, h3 {
         font-family: 'Encode Sans Normal';
@@ -15,129 +14,13 @@
     </style>
   </head>
   <body>
-    <textarea id="source">
 
-class: center, middle
-
-<image src="images/techconnect-logo.png">
-
-### **Future Proofing Data-intensive Research**
-## **The University of Washington eScience Institute**
-
-### Ariel Rokem
-
-<image src="images/eScience_Logo_RGB_PP.png">
-
-<small>Follow along at: <a href="">arokem.github.io/2016-03-24-techconnect</a></small>
-
----
-
-layout: true
-
-<div class="fragment fade-in" style="position: absolute; left: 600px; top: 300px;">
-<image src="images/escience-network.png" width=600px style="opacity:0.4;filter:alpha(opacity=40);"> </div>
-
----
-
-### Introduction: the future is already here
-
---
-
-### ... it's just not very evenly distributed.
-                                              (William Gibson)
-
---
-
-1. Data-intensive research
-
---
-
-1. Complicated Collaborations
-
---
-
-1. Training for the data-intensive future
-
----
-
-### Who am I?
---
-
-Born and raised in West Jerusalem <image src="images/huji-logo.png" height=100px>
-
---
-
-Ph.D. In neuroscience  <image src="images/berkeley-logo.png" height=100px>
-
---
-
-Research experience in computational neuroimaging <image src="images/stanford-logo.png" height=100px>
-
---
-
-Open source software development <image src="images/scipy-logo.png" height=100px> <image src="images/nipy-logo.png" height=100px>
-
-
----
-
-### Neuroimaging is a data-intensive science
-
-<video preload="auto" width="70%" height="auto"  data-setup="{}" autoplay loop><source src="ipynb/mri-zstack.mp4" type="video/mp4"></video>
-
-
----
-
-### Neuroimaging is a data-intensive science
-
-<image src="images/vanhorn-toga-2014.png" height=400px>
-<p><small>Van Horn and Toga (2014)</small></p>
-
----
-
-### Collaboration with computer scientists
-
-
----
-
-### But this is not unique
-
-Across campus, in many different fields
-
----
-
-### Teach a person to fish
-
-<image src="images/swc-logo.png" height=100px>
-
----
-
-### Three slides I would like to see
-
-http://software-carpentry.org/blog/2015/08/three-graphs-i-would-like-to-see.html
-
----
-
-"Ask the managers of high-performance computing centers what fraction of their budget they spent on hardware, software, and training, and what fractions they would like to spend. My prediction is:"
-
-<image src="images/gvwilson1.png">
-
----
-
-"Measure how much computing power all of the scientists at a university (not just those with HPC accounts) use during a year. My prediction is:"
-
-<image src="images/gvwilson2.png">
-
----
-
-"Classify all the support requests received by HPC center staff according to technical complexity, and see how that changes after something like a two-day Software Carpentry workshop. My prediction is:"
-
-<image src="images/gvwilson3.png">
-
-    </textarea>
     <script src="remark-latest.min.js">
     </script>
     <script>
-      var slideshow = remark.create();
+    var slideshow = remark.create({
+                    sourceUrl: 'slides.md'
+                    });
     </script>
   </body>
 </html>
