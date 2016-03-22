@@ -27,21 +27,31 @@ layout: true
 ### ... it's just not very evenly distributed.
                                               (William Gibson)
 
---
 
-1. The data explosion
-
---
-
-1. The eScience Institute
+1. Data-intensive discovery
 
 --
 
-1. Advancing data-intensive discovery
+1. The eScience Institute: data-science at the UW
 
 --
 
-1. Training for the data-intensive future
+1. Future proofing:
+--
+
+   - Catalyzing complicated collaborations
+
+--
+
+   - Building and maintaining the tools
+
+--
+
+   - Sustaining career paths in data-intensive research
+
+--
+
+  - Training a generation of
 
 ---
 
@@ -67,7 +77,9 @@ layout: true
 
 ### Neuroimaging is a data-intensive science
 
-<video preload="auto" width="70%" height="auto"  data-setup="{}" autoplay loop><source src="ipynb/mri-zstack.mp4" type="video/mp4"></video>
+<video>
+  <source src="ariel-instructor-training-faded-examples.mp4" type="video/mp4" control>
+</video>
 
 
 ---
@@ -77,24 +89,88 @@ layout: true
 <image src="images/vanhorn-toga-2014.png" height=400px>
 <p><small>Van Horn and Toga (2014)</small></p>
 
+
+---
+
+### The data deluge
+
+--
+It's happening across many different fields
+
+--
+
+Astronomy
+
+--
+
+Genomics
+
+--
+
+Social sciences
+
+--
+
+
 ---
 
 ### The eScience Institute
 
-<div style="position: absolute; left: 600px; top: 300px;">
-<image src="images/escience-network.png" width=600px style="opacity:0.4;filter:alpha(opacity=40);"> </div>
+<image src="images/eScience_Logo_PMS.png" height=150px>
 
+--
+<p>
+</p>
+<image src="images/DSE-and-sponsors.png" height=200px>
+
+$ 38.7M for 5 years: "Moore-Sloan Data Science Environments"
 ---
 
 ### What is *Data Science*?
 
-<image src="images/Data_Science_VD.png">
+<image src="images/Data_Science_VD.png" height=400px>
 
 Drew Conway
 
 ---
 
+### In acadmia, Data Science faces unique challenges:
+
+--
+
+- Careers
+
+--
+
+- Education and training
+
+--
+
+- Tools and software
+
+--
+
+- Reproducibility and open science
+
+--
+
+- Physical and intellectual space
+
+--
+
+- Data Science studies
+
+---
+
 ### Impactful collaborations and the challenge of novelty-squared
+
+Work with Magda Balazinska, Alvin Cheung, from CS
+
+Parmita Mehta, Sven Dorkenwald
+
+Andy Connoly, Jake Vanderplas, Astronomy
+Dave Williams, Biology
+
 
 Collaborations of this sort don't neccesarily give me a neuroscience paper next year
 
@@ -110,12 +186,30 @@ Josh Bloom calls this <a href="https://medium.com/@profjsb/novelty-squared-dd888
 
 Across campus, in many different fields
 
+"Our mission is to engage researchers across disciplines in developing and applying advanced computational methods and tools to real world problems in data-intensive discovery"
 
 ---
 
-### A physical space: The Data Science Studio
+### A physical space: The WRF Data Science Studio
 
 <image src="images/DataScienceStudio.jpg" height=250px>
+<p>
+</p>
+<image src="images/WRFLogo.png" height=100px>
+
+
+---
+
+### Open-source software: a key to reproducible science
+
+For example: Neuroimaging in Python
+
+
+--
+
+But how do we make this possible?
+
+
 
 ---
 
@@ -133,21 +227,25 @@ Teaches researchers basic computing skills:
 
 --
 
+1. How to use the Unix shell
+1. Basic programming
+1. Version control
+1. Sometimes also teach SQL and/or software testing.
+
 
 ---
 
 ### Why is this worth doing?
 
----
-
 "Ask the managers of high-performance computing centers what fraction of their budget they spent on hardware, software, and training, and what fractions they would like to spend. My prediction is:"
 
 <image src="images/gvwilson1.png">
 
-
 <a href="http://software-carpentry.org/blog/2015/08/three-graphs-i-would-like-to-see.html
 ">Greg Wilson</a>
 ---
+
+### Why is this worth doing?
 
 "Measure how much computing power all of the scientists at a university (not just those with HPC accounts) use during a year. My prediction is:"
 
@@ -158,6 +256,7 @@ Teaches researchers basic computing skills:
 
 ---
 
+### Why is this worth doing?
 "Classify all the support requests received by HPC center staff according to technical complexity, and see how that changes after something like a two-day Software Carpentry workshop. My prediction is:"
 
 <image src="images/gvwilson3.png">
@@ -167,8 +266,23 @@ Teaches researchers basic computing skills:
 
 ---
 
+### Neurohackweek
+
+A week-long hackathon aimed at human neuroimaging researchers at different stages of their career.om
+
+---
+
 ### Data Science for Social Good
 
+Addresses two major challenges:
+
+--
+
+How do we enable data-driven approaches in institutions devoted to social good?
+
+--
+
+How do we provide training for data-scientists interested in social good?
 
 
 ---
