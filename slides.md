@@ -106,7 +106,7 @@ Participatory
 
 <a href="http://depts.washington.edu/bdelab/"> Jason Yeatman </a>, UW ILABS
 
-<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="../videos/cc_tube_movie-373.mov"/> </video>
+<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/cc_tube_movie-373.mov"/> </video>
 
 ---
 
@@ -230,7 +230,7 @@ Connecting research on data science methodology (Computer Science and Engineerin
 
 Many research domains use image data!
 
-<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="../videos/mothx.mov"/> </video>
+<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/mothx.mov"/> </video>
 
 ---
 
@@ -265,7 +265,18 @@ Biology: Dave Williams
 
 ---
 
+### A physical space: The WRF Data Science Studio
+
+<image src="images/DataScienceStudio.jpg" height=250px>
+<p>
+</p>
+<image src="images/WRFLogo.png" height=100px>
+
+
+---
+
 ### A crisis of reproducibility
+
 
 ---
 
@@ -301,15 +312,6 @@ Biology: Dave Williams
 
 ---
 
-### A physical space: The WRF Data Science Studio
-
-<image src="images/DataScienceStudio.jpg" height=250px>
-<p>
-</p>
-<image src="images/WRFLogo.png" height=100px>
-
----
-
 ### Teach a person to fish
 
 <image src="images/swc-logo.png" height=200px>
@@ -328,7 +330,6 @@ Teaches researchers basic computing skills:
 1. Basic programming
 1. Version control
 1. Sometimes also teach SQL and/or software testing.
-
 
 ---
 
