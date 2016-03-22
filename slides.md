@@ -51,7 +51,7 @@ layout: true
 
 --
 
-  - Training a generation of
+  - Training data-savvy researchers
 
 ---
 
@@ -77,10 +77,7 @@ layout: true
 
 ### Neuroimaging is a data-intensive science
 
-<video>
-  <source src="ariel-instructor-training-faded-examples.mp4" type="video/mp4" control>
-</video>
-
+<video preload="auto" width="70%" height="auto"  data-setup="{}" autoplay loop controls><source src="../videos/mri-zstack.mov"/></video>
 
 ---
 
