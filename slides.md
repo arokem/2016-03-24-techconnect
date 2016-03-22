@@ -28,6 +28,8 @@ layout: true
                                               (William Gibson)
 
 
+--
+
 1. Data-intensive discovery
 
 --
@@ -72,16 +74,73 @@ layout: true
 
  <image src="images/scipy-logo.png" height=100px> <image src="images/nipy-logo.png" height=100px> Open source software development
 
+---
+
+### Neuroimaging is data-intensive!
+
+<video id="mri-zstack" preload="auto" width="85%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/mri-zstack.mov"/></video>
 
 ---
 
-### Neuroimaging is a data-intensive science
+### Amazing opportunities...
 
-<video preload="auto" width="70%" height="auto"  data-setup="{}" autoplay loop controls><source src="../videos/mri-zstack.mov"/></video>
+Announced by the White House last year, the <a href="https://www.whitehouse.gov/the-press-office/2015/01/30/fact-sheet-president-obama-s-precision-medicine-initiative"> **Precision Medicine** </a> initiative aims to make medicine:
+
+Personalized
+
+Predictive
+
+Preventative
+
+Participatory
+
+<small><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3978637/">Hood and Auffray (2013)</a></small>
+
+--
+
+### The key to do this is data!
 
 ---
 
-### Neuroimaging is a data-intensive science
+### Automated Fiber Quantification
+
+<a href="http://depts.washington.edu/bdelab/"> Jason Yeatman </a>, UW ILABS
+
+<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="../videos/cc_tube_movie-373.mov"/> </video>
+
+---
+
+### Automated Fiber Quantification
+
+<a href="http://depts.washington.edu/bdelab/"> Jason Yeatman </a>, UW ILABS
+
+<image height="60%" src="images/AFQ-FA-CC.png">
+
+<small><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0049790">Yeatman et al. (2012)</a></small>
+
+---
+
+### Automated Fiber Quantification
+
+<a href="http://depts.washington.edu/bdelab/"> Jason Yeatman </a>, UW ILABS
+
+<image height="35%" src="images/AFQ-cerebral-palsy.png">
+
+<small><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0049790">Yeatman et al. (2012)</a></small>
+
+---
+
+### Automated Fiber Quantification
+
+<a href="http://depts.washington.edu/bdelab/"> Jason Yeatman </a>, UW ILABS
+
+<image height="22%" src="images/AFQ-reading.png">
+
+<small><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0049790">Yeatman et al. (2012)</a></small>
+
+---
+
+### ...and daunting challenges
 
 <image src="images/vanhorn-toga-2014.png" height=400px>
 <p><small>Van Horn and Toga (2014)</small></p>
@@ -104,10 +163,11 @@ Genomics
 
 --
 
-Social sciences
+...
 
 --
 
+Social sciences
 
 ---
 
@@ -131,15 +191,7 @@ Drew Conway
 
 ---
 
-### In acadmia, Data Science faces unique challenges:
-
---
-
-- Careers
-
---
-
-- Education and training
+### Challenges for DS in academia:
 
 --
 
@@ -151,39 +203,101 @@ Drew Conway
 
 --
 
+- Careers
+
+--
+
+- Education and training
+
+--
+
 - Physical and intellectual space
 
 --
 
 - Data Science studies
 
+
 ---
 
-### Impactful collaborations and the challenge of novelty-squared
+### Tools and software
 
-Work with Magda Balazinska, Alvin Cheung, from CS
+Connecting research on data science methodology (Computer Science and Engineering, Statistics, Applied Math) with domain research questions.
 
-Parmita Mehta, Sven Dorkenwald
+---
 
-Andy Connoly, Jake Vanderplas, Astronomy
-Dave Williams, Biology
+### Image Processing Across Domains
 
+Many research domains use image data!
 
-Collaborations of this sort don't neccesarily give me a neuroscience paper next year
+<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="../videos/mothx.mov"/> </video>
 
-But might generate the tools that every neuroscientist uses in 5 years.
+---
 
-Josh Bloom calls this <a href="https://medium.com/@profjsb/novelty-squared-dd88857f662#.j9jtwaxe9">"The challenge of novelty squared"</a>:
+### Image Processing Across Domains
+
+Many research domains use image data!
+
+<image src="images/Cepheid-Variable-Stars.jpg">
+
+---
+### Image Processing Across Domains
+
+Computer Science: Magda Balazinska, Alvin Cheung, Parmita Mehta, Sven Dorkenwald
+
+<image src="images/myria-logo.png">
+
+Astronomy: Andy Connoly, Jake Vanderplas
+
+Biology: Dave Williams
+
+---
+
+### The challenge of novelty squared
+
+<a href="https://medium.com/@profjsb/novelty-squared-dd88857f662#.j9jtwaxe9">Josh Bloom</a>:
+
+"the challenge of finding work that may be simultaneously novel both to the domain scientist and to the core computation, statistical, and algorithmic scientist. "
+
+--
 
 “The last thing I want to have happen with an interdisciplinary collaboration is that my CS and stats colleagues find their contribution to be routine if not mundane.”
 
 ---
 
-### But this is not unique
+### A crisis of reproducibility
 
-Across campus, in many different fields
+---
 
-"Our mission is to engage researchers across disciplines in developing and applying advanced computational methods and tools to real world problems in data-intensive discovery"
+### The three pillars of open science
+
+<image src="images/gorgolewski-poldrack-three-pillars.png" height=400px>
+
+  <a href="http://biorxiv.org/content/early/2016/02/12/039354.full.pdf+html">Gorgolewski and Poldrack (2016)</a>
+
+---
+
+### The Scientific Python eco-system
+
+<image src="images/python-ecosystem1.png" height=500px>
+
+---
+
+### The Scientific Python eco-system
+
+<image src="images/python-ecosystem2.png" height=500px>
+
+---
+
+### The Scientific Python eco-system
+
+<image src="images/python-ecosystem3.png" height=500px>
+
+---
+
+### The Scientific Python eco-system
+
+<image src="images/python-ecosystem4.png" height=500px>
 
 ---
 
@@ -193,20 +307,6 @@ Across campus, in many different fields
 <p>
 </p>
 <image src="images/WRFLogo.png" height=100px>
-
-
----
-
-### Open-source software: a key to reproducible science
-
-For example: Neuroimaging in Python
-
-
---
-
-But how do we make this possible?
-
-
 
 ---
 
