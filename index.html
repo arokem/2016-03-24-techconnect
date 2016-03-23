@@ -18,10 +18,14 @@
     </style>
   </head>
   <body>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
+
     <script src="remark-latest.min.js">
     </script>
+
     <script>
     var slideshow = remark.create({navigation: {click: false, scroll: false}, properties: {class: "center, middle"}, sourceUrl: 'slides.md'});
+
     // Setup MathJax
     MathJax.Hub.Config({
         tex2jax: {
@@ -35,9 +39,6 @@
     });
 
     MathJax.Hub.Configured();
-
     </script>
-  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
-
   </body>
 </html>

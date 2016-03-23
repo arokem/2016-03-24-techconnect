@@ -234,7 +234,7 @@ One of the big challenges facing the field is that with the development of measu
 ### The data deluge
 
 --
-It's happening across many different fields
+Across many different fields
 
 ???
 
@@ -285,7 +285,7 @@ The mission of the University of Washington eScience Institute is to collaborate
 </p>
 <image src="images/DSE-and-sponsors.png" height=200px>
 
-$ 38.7M for 5 years: "Moore-Sloan Data Science Environments"
+$ 37.8M for 5 years: <a href="http://msdse.org/">"Moore-Sloan Data Science Environments"</a>
 
 ???
 We have a broad portfolio of funding from many sources, but a major source of support is a grant that we got a few years ago from the Moore and Sloan foundations. The funding from these foundations has created a collaborative network of environments at three institutions: NYU, Berkeley and The University of washington, devoted to data science.
@@ -296,7 +296,7 @@ We have a broad portfolio of funding from many sources, but a major source of su
 
 <image src="images/Data_Science_VD.png" height=400px>
 
-Drew Conway
+<a href="http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram">Drew Conway</a>
 
 ???
 Wait, you say. What is data science? Well, the term actually comes from the data deluge that companies in the private sector have . They realized that a combination of different skills: knowledge about the domain from which the data was taken, programming skills, and quantitative skills together form a very powerful background to extract meaningful.
@@ -364,9 +364,7 @@ Many research domains use image data!
 <video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/mothx.mov"/> </video>
 
 ???
-For example, we have noticed that researchers at the institute from several different fields all use image data in their research. For example, biologists analyze
-
-in collaboration with several other researchers at the eScience Institute
+For example, we have noticed that researchers at the institute from several different fields all use image data and image processing algorithms in their research. For example, researchers in the biology department use high-speed cameras to record the flight of moths, and analyze these data to better understand how their wings work.
 ---
 
 ### Image Processing Across Domains
@@ -375,6 +373,8 @@ Many research domains use image data!
 
 <image src="images/Cepheid-Variable-Stars.jpg">
 
+???
+Researchers in astronomy use humongous image data to model the structure of distant galaxies.
 ---
 
 ### Image Processing Across Domains
@@ -387,6 +387,9 @@ Astronomy: Andy Connoly, Jake Vanderplas
 
 Biology: Dave Williams
 
+???
+
+Magda Balazinska and others on the Computer Science and Engineering department have developed systems for cloud computing data analysis, such as the Myria system. Our current work together builds upon this expertiese to build together the next generation of scientific image processing tools, that will serve researchers across all of these domains, and more.
 ---
 
 ### The challenge of novelty squared
@@ -394,6 +397,9 @@ Biology: Dave Williams
 <a href="https://medium.com/@profjsb/novelty-squared-dd88857f662#.j9jtwaxe9">Josh Bloom</a>:
 
 "the challenge of finding work that may be simultaneously novel both to the domain scientist and to the core computation, statistical, and algorithmic scientist. "
+
+???
+This kind of research poses a particular kind of challenge, because both sides of the collaboration have to be interested in it. This is what Josh Bloom, an astrophysicst from our collaborating institute at Berkeley has called "The challenge of novelty squared"
 
 --
 
@@ -403,11 +409,16 @@ Biology: Dave Williams
 
 Living in the future has its downsides! This work will not produce a neuroscience paper in the immediate future. Instead, it might produce the systems that all neuroscientists will use in 5 years!
 
+So - while novelty squared is hard, it is also potentially transformative!
 ---
 
 ### A crisis of reproducibility
 
 
+???
+As I mentioned before, one of the . This has been
+
+One way to restore the trust in the reproducibility is to conduct our research in a manner that is transparent and open.
 ---
 
 ### The three pillars of open science
@@ -416,63 +427,92 @@ Living in the future has its downsides! This work will not produce a neuroscienc
 
   <a href="http://biorxiv.org/content/early/2016/02/12/039354.full.pdf+html">Gorgolewski and Poldrack (2016)</a>
 
+???
+Chris Gorgolewski and Russ Poldrack, two neuroscientists from Stanford recently wrote a paper introducing these three pillars of open science. They called for the publication of code and data, and for open dissemination of the papers.
+
+At the eScience Institute, we spend a lot of time thinking about these things, and discussing them with researchers in various fields. We also spend a lot of time and energy developing open-source software. As I told you before, I am involved in a community that develops open-source software for the analysis of neuroimaging data in python.
+
+This community is part of a much larger community of researchers and programmers that develop a whole eco-system of tools for data analysis and scientific research in Python
 ---
 
-### The Scientific Python eco-system
+#### Open-source science: the scientific Python eco-system
 
 <image src="images/python-ecosystem1.png" height=500px>
 
+???
+
+We all rely on the Python language itself
 ---
 
-### The Scientific Python eco-system
+#### Open-source science: the scientific Python eco-system
 
 <image src="images/python-ecosystem2.png" height=500px>
 
+???
+
+Over the years, people have developed excellent tools in Python to support basic computational tasks that are common across many fields. For example, a library called numpy supports numerical operations on multi-dimensional arrays of data, such as those in image data.
+
+Another library called scipy supports a wide range of computations, signal processing, statistics, optimization, and so forth.
 ---
 
-### The Scientific Python eco-system
+#### Open-source science: the scientific Python eco-system
 
 <image src="images/python-ecosystem3.png" height=500px>
 
+???
+On top of these basic tools, others have built tools that support a variety of domain agnostic operations: machine learning, plotting, symbolic math, etc.
+
 ---
 
-### The Scientific Python eco-system
+#### Open-source science: the scientific Python eco-system
 
 <image src="images/python-ecosystem4.png" height=500px>
 
+???
+Finally, researchers in various domains
 
+Part of what makes this ecosystem so powerful is the fact that information flows in both directions: researchers at the edges, in various domains rely on the central projects, such as numpy and scipy, but they also contribute back to the development of these projects, allowing everyone to enjoy the network effect of an open and collaborative development community.
 ---
 
 ### Neuroimaging in Python
 
 <a href="http://nipy.org/"><image src="images/nipy-logo.png" height="40%"></a>
 
+???
+Much of my own work in this context has been out here in the Neuroimaging in Python community, but we also see ourselves as part of this broader community and several others at the eScience Institute actively contribute into this broader community, through their own domains, or to the core of the eco-system.
 ---
 
-
-### A physical space: The WRF Data Science Studio
+#### A physical space: The WRF Data Science Studio
 
 <image src="images/DataScienceStudio.jpg" height=250px>
 <p>
 </p>
 <image src="images/WRFLogo.png" height=100px>
 
+???
+In addition to the support of this kind of virtual communities, one important thing that the eScience Institute provides is a physical space for data science on campus. This space, built with support from Moore and Sloan, and from the Washington Research Foundation, the Data Science Studio is located at the top of the Physics/Astronomy tower on the Southwestern corner of campus.  
+
+This bigh open plan space is home to a team of data scientists, including myself and also serves as a space for a variety of collaborative activities: hackathons, seminars, lecture series and conferences around data science.
+
+One of the most popular activities that we pursue in this space are focused on education and collaboration.
 ---
 
-### Incubator Projects
-
-
-
-
----
 ### Teach a person to fish
 
 <image src="images/swc-logo.png" height=200px>
 
+???
+
+Another activity that serves researchers across campus are workshops that we host at the Data Science Institute on a variety of topics.
+
+One kind of workshop that has been very popular are Software Carpentry "bootcamps"
 --
 
-Volunteer-based organization and community of practice
+Volunteer-based organization
 
+???
+
+Software Carpentry is a volunteer-based organization and community of practice...
 --
 
 Teaches researchers basic computing skills:
@@ -516,26 +556,82 @@ Teaches researchers basic computing skills:
   ">Greg Wilson</a>
 
 
+---
+
+### Incubator Projects
+
+http://escience.washington.edu/get-involved/incubator-programs/winter-2016/
+
+???
+
+As part of our effort to reach out to the campus community and collaborate with researchers from a wide range of fields, departments and institutes on campus, the incubator projects offer the possibility for a researcher or researchers to work together with us on a quarter-long. During the course of the quarter, we work together with the researchers shoulder-to-shoulder to implement the software needed.
+
+We recently had the finishing presentations of the Winter Incubator. Many researchers who participated found it to be a highly productive : "I did more in these 10 weeks than I would be able to do on my own in a year!"
+
+---
+
 ### Data Science for Social Good
 
 Addresses two major challenges:
 
---
+???
 
-How do we enable data-driven approaches in institutions devoted to social good?
-
+Another form of our incubator projects is our Data Science for Social Good Program (or DSSG). This program addresses two major challenges.
 --
 
 How do we provide training for data-scientists interested in social good?
 
+???
+The first is the education of data-scientists, especially in the social sciences, and fields that pertain to social good
+--
 
+How do we enable data-driven approaches in institutions devoted to social good?
+
+???
+The other is our ability to provide solutions to "real-world" problems outside the university.
+
+--
+
+<a href="http://urban.uw.edu/">Urban at UW
+<image src="images/UrbanatUW-Seattle-World.png">
+</a>
+
+???
+This project also dovetails with Urban at UW
+
+Inspired by similar programs at the University of Chicago, and in the Atlanta Region, we initiated this program last summer.
 ---
 
-### Now accepting appplications for projects until March 30th
+### DSSG @ UW eScience 2015
 
-http://escience.washington.edu/dssg-proposal
+--
+
+16 student fellows
+
+--
+
+4 projects
+
+--
+
+Project leads from UW and from non-profit organizations in the region
+
+--
 
 
+???
+The program consisted of 16 student-fellows, who, in teams of 4 pursued 4 different projects aimed at social good
+
+
+### DSSG @ UW eScience in 2016!
+
+**Now accepting appplications for projects until March 30th**
+
+<a href="http://escience.washington.edu/dssg-proposal">http://escience.washington.edu/dssg-proposal</a>
+
+???
+
+We are very excited to welcome a new cohort of DSSG fellows and projects this summer. Applications to participate as students have already closed (in fact, we are currently reviewing the more than 200 applications to participate!), but we are still soliciting applications for project proposals. Please spread the word about this program to your friends and colleagues on campus and beyond.
 ---
 
 ### Future proofing data-intensive discovery
@@ -560,15 +656,19 @@ http://escience.washington.edu/dssg-proposal
 
 ### Come talk to us!
 
-<image src="images/eScience_Logo_RGB_PP.png">
+<image height="40%" src="images/eScience_Logo_RGB_PP.png">
 
-The eScience Institute will have a table later today.
+The eScience Institute will have a table later today
 
 --
 
-We hold <a href="http://escience.washington.edu/office-hours/">Office hours</a> at the DSS.
+Come to our <a href="http://escience.washington.edu/office-hours/">office hours</a> at the DSS!
 
 ---
+class: center
+layout: false
+
+### Get in touch!
 
 <div style="position:absolute; left: 220px; top:100px;">
   <img src="images/globe-xxl.png" width="100px;" style="background:none; border:none; box-shadow:none;">
