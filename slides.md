@@ -412,13 +412,22 @@ Living in the future has its downsides! This work will not produce a neuroscienc
 So - while novelty squared is hard, it is also potentially transformative!
 ---
 
-### A crisis of reproducibility
+### The challenge of reproducibility
 
+Reproducibility is a bed-rock of the scientific method.
+
+--
+
+As data and computations become more elaborate, it's not enough to describe you did.
+
+--
+
+#### Show your work!
 
 ???
-As I mentioned before, one of the . This has been
+As I mentioned before, one of the challenges for DS is that as the data and computations become more elaborate, a simple verbal description of the procedures will not suffice.
 
-One way to restore the trust in the reproducibility is to conduct our research in a manner that is transparent and open.
+Instead, one way to restore the trust in the reproducibility of the work is to conduct our research in a manner that is transparent and open.
 ---
 
 ### The three pillars of open science
@@ -760,7 +769,7 @@ In collaboration with <a href="http://thirdplacetechnologies.com/">Third Place T
 
 Family Trajectories through Programs
 
-<image src="images/PierceTrajectories.png">
+<image height="35%" src="images/PierceTrajectories.png">
 
 ---
 
@@ -777,6 +786,7 @@ We are very excited to welcome a new cohort of DSSG fellows and projects this su
 
 ### Future proofing data-intensive discovery
 
+#### The eScience Institute
 --
 
   - Catalyzing collaborations
