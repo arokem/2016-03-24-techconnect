@@ -361,7 +361,7 @@ A major part of the work that we do is to develop tools and software that will b
 
 Many research domains use image data!
 
-<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/Hawk-Moth1_h.264.mov"/> </video>
+<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/moth.mov"/> </video>
 
 ???
 For example, we have noticed that researchers at the institute from several different fields all use image data and image processing algorithms in their research. For example, researchers in the biology department use high-speed cameras to record the flight of moths, and analyze these data to better understand how their wings work.
@@ -603,6 +603,7 @@ Data scientists and domain researchers work side-by-side
 Researchers from departments across the university apply to participate.
 
 --
+
 Just finished our <a href="http://escience.washington.edu/get-involved/incubator-programs/winter-2016/">third cohort</a> of projects.
 
 ???
@@ -615,9 +616,7 @@ We recently had the finishing presentations of the Winter Incubator. Many resear
 I'll show you one example of such a project
 ---
 
-### Incubator project
-
---
+### Example incubator project
 
 #### Pulse-trains to percepts : models for retinal prosthetics
 
@@ -664,17 +663,25 @@ Technical challenge:
 
 ### A "virtual patient"
 
-<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/girlJumpsInPool.mov
+<video width="60%" height="auto" data-setup="{}" autoplay loop muted="muted"><source src="./videos/girlJumpsInPool.mov
+"/> </video>
+
+
+<video width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/girlJumpsInPool_percept_lambda6_ampmax_5.mov
 "/> </video>
 
 ---
 
 ### A "virtual patient"
 
-<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/girlJumpsInPool_percept_lambda6_ampmax_5.mov
+<video muted="muted" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/platformBostonT.mov
+"/> </video>
+
+<video  width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/platformBostonT_percept_lambda6_ampmax_5.mov
 "/> </video>
 
 ---
+
 
 ### Data Science for Social Good
 
