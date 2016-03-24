@@ -682,11 +682,15 @@ Technical challenge:
 
 ### A "virtual patient"
 
-<video width="60%" height="auto" data-setup="{}" autoplay loop muted="muted"><source src="./videos/girlJumpsInPool.mov
+<video width="60%" height="auto" autoplay loop muted="muted"><source src="./videos/girlJumpsInPool.mov
 "/> </video>
 
 
-<video width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/girlJumpsInPool_percept_lambda6_ampmax_5.mov
+---
+
+### A "virtual patient"
+
+<video width="60%" height="auto" autoplay loop ><source src="./videos/girlJumpsInPool_percept_lambda6_ampmax_5.mov
 "/> </video>
 
 ---
@@ -695,6 +699,10 @@ Technical challenge:
 
 <video muted="muted" width="60%" height="auto" autoplay loop ><source src="./videos/platformBostonT.mov
 "/> </video>
+
+---
+
+### A "virtual patient"
 
 <video  width="60%" height="auto" autoplay loop ><source src="./videos/platformBostonT_percept_lambda6_ampmax_5.mov
 "/> </video>
