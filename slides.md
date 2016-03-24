@@ -15,8 +15,6 @@ class: center, middle
 
 Hello! My name is Ariel Rokem, and I am a data-scientist at the University of Washington eScience Institute. Today, I am going to tell you about the future and what we are doing at the eScience Institue to make research at the University of Washington future-proof.
 
-As you might already know...
-
 ---
 
 layout: true
@@ -150,7 +148,7 @@ The key to making this vision a reality is *data*! Though a major focus of the c
 
 <a href="http://depts.washington.edu/bdelab/"> Jason Yeatman </a>, UW ILABS
 
-<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/cc_tube_movie-373.mov"/> </video>
+<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/cc_tube_movie.mov"/> </video>
 
 ???
 
