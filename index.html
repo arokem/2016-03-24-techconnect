@@ -24,7 +24,12 @@
     </script>
 
     <script>
-    var slideshow = remark.create({navigation: {click: false, scroll: false}, properties: {class: "center, middle"}, sourceUrl: 'slides.md'});
+    var slideshow = remark.create({
+      navigation: {click: false, scroll: false},
+      properties: {class: "center, middle"},
+      sourceUrl: 'slides.md',
+      countIncrementalSlides: false
+                                  });
 
     // Setup MathJax
     MathJax.Hub.Config({

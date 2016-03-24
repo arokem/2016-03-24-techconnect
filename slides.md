@@ -273,6 +273,7 @@ Josh Blumenstock
 For example, in this research from I-School researcher Josh Blumenstock and his group, high resoltion maps of poverty and wealth in an entire country (In this case, the central-African country Rwanda) can be generated based on cell-phone usage patterns
 
 ---
+
 ### The eScience Institute
 
 <image src="images/eScience_Logo_PMS.png" height=150px>
@@ -630,10 +631,28 @@ With <a href="http://faculty.washington.edu/ionefine/">Ione Fine</a> and <a href
 
 <image height=60% src="images/retina-with-implants.png">
 
+---
+
+### Retinal Prosthetics
+
+<image height=60% src="images/retinal-prosthetic-photo.png">
 
 ---
 
-### A "virtual patient"
+### Retinal Prosthetics
+
+<image height=40% src="images/retinal-prosthetic1.png">
+
+---
+
+### Models: from pulse to percept
+
+<image height="30%" src="images/cascade-model.png">
+
+<small> Greenwald et al. (2009), Horsager et al. (2009, 2010, 2011), Nanduri et al. (2011, 2013)</small>
+---
+
+### Software: from pulse to percept
 
 <image height="30%" src="images/cascade-model.png">
 
@@ -674,10 +693,10 @@ Technical challenge:
 
 ### A "virtual patient"
 
-<video muted="muted" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/platformBostonT.mov
+<video muted="muted" width="60%" height="auto" autoplay loop ><source src="./videos/platformBostonT.mov
 "/> </video>
 
-<video  width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/platformBostonT_percept_lambda6_ampmax_5.mov
+<video  width="60%" height="auto" autoplay loop ><source src="./videos/platformBostonT_percept_lambda6_ampmax_5.mov
 "/> </video>
 
 ---
@@ -794,6 +813,7 @@ We are very excited to welcome a new cohort of DSSG fellows and projects this su
 ### Future proofing data-intensive discovery
 
 #### The eScience Institute
+
 --
 
   - Catalyzing collaborations
