@@ -361,7 +361,7 @@ A major part of the work that we do is to develop tools and software that will b
 
 Many research domains use image data!
 
-<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/mothx.mov"/> </video>
+<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/Hawk-Moth1_h.264.mov"/> </video>
 
 ???
 For example, we have noticed that researchers at the institute from several different fields all use image data and image processing algorithms in their research. For example, researchers in the biology department use high-speed cameras to record the flight of moths, and analyze these data to better understand how their wings work.
@@ -517,6 +517,8 @@ Software Carpentry is a volunteer-based organization and community of practice..
 
 Teaches researchers basic computing skills:
 
+???
+That teaches researchers from a variety of fields basic computing skills
 --
 
 1. How to use the Unix shell
@@ -524,9 +526,18 @@ Teaches researchers basic computing skills:
 1. Version control
 1. Sometimes also teach SQL and/or software testing.
 
+???
+How to use the unix operating shell to control their operating system, how to program in Python, or in R, how to use version control to make their research reproducible and open. Sometimes we also cover more advanced topics, such as use of data-bases, or software testing.
 ---
 
 ### Why is this worth doing?
+
+???
+
+You might ask: why is this worth doing? In the next couple of slides, I will argue that this is highly relevant to many of you, working at UW IT.
+
+In a blog post that he wrote, Greg Wilson, the co-founder of Software Carpentry made three hypotheses
+--
 
 "Ask the managers of high-performance computing centers what fraction of their budget they spent on hardware, software, and training, and what fractions they would like to spend. My prediction is:"
 
@@ -534,6 +545,9 @@ Teaches researchers basic computing skills:
 
 <a href="http://software-carpentry.org/blog/2015/08/three-graphs-i-would-like-to-see.html
 ">Greg Wilson</a>
+
+???
+The first relates to the gap between the resources that are spent on training versus the need for these resources. Arguably, the best form of future-proofing is education, and we might ask whether we are doing enough of this form of future-proofing. I don't know.
 ---
 
 ### Why is this worth doing?
@@ -545,6 +559,8 @@ Teaches researchers basic computing skills:
   <a href="http://software-carpentry.org/blog/2015/08/three-graphs-i-would-like-to-see.html
   ">Greg Wilson</a>
 
+???
+The second hypothesis is about the impact of this kind of training. Greg posits that many researchers at the University today are not doing high-performance computing on Big Data. Rather, they are doing mediocre-performance computing on medium data: computing things on laptops or desktops on data sets on the order of Megabytes to Gigabytes in size.
 ---
 
 ### Why is this worth doing?
@@ -555,18 +571,99 @@ Teaches researchers basic computing skills:
   <a href="http://software-carpentry.org/blog/2015/08/three-graphs-i-would-like-to-see.html
   ">Greg Wilson</a>
 
-
+???
+The last hypothesis pertains to the kinds of questions that people will ask from the IT person in their department. One of the main value propositions of training like that provided in Software Carpentry workshops is that it raises the overall complexity of the interactions that researchers and IT people can have, because it brings researchers over the initial hump of clue-lessness to where they can ask more interesting questions, and collaborate more effectively with the IT people in their department.
 ---
 
-### Incubator Projects
+### Data Science Incubator
 
-http://escience.washington.edu/get-involved/incubator-programs/winter-2016/
+--
+
+Focused, intensive collaborative projects
+
+--
+
+Quarter-long
+
+--
+
+Data scientists and domain researchers work side-by-side
+
+--
+
+Researchers from departments across the university apply to participate.
+
+--
+Just finished our <a href="http://escience.washington.edu/get-involved/incubator-programs/winter-2016/">third cohort</a> of projects.
 
 ???
+Another form of training and collaboration that we have been doing is the data science incubator.
 
 As part of our effort to reach out to the campus community and collaborate with researchers from a wide range of fields, departments and institutes on campus, the incubator projects offer the possibility for a researcher or researchers to work together with us on a quarter-long. During the course of the quarter, we work together with the researchers shoulder-to-shoulder to implement the software needed.
 
 We recently had the finishing presentations of the Winter Incubator. Many researchers who participated found it to be a highly productive : "I did more in these 10 weeks than I would be able to do on my own in a year!"
+
+I'll show you one example of such a project
+---
+
+### Incubator project
+
+--
+
+#### Pulse-trains to percepts : models for retinal prosthetics
+
+Winter 2016
+
+With <a href="http://faculty.washington.edu/ionefine/">Ione Fine</a> and <a href="http://faculty.washington.edu/gboynton/">Geoff Boynton</a>, Department of Psychology
+
+---
+
+### Retinal Prosthetics
+
+<image height=60% src="images/retina-with-implants.png">
+
+
+---
+
+### A "virtual patient"
+
+<image height="30%" src="images/cascade-model.png">
+
+Implemented as open-source software: http://github.com/uwescience/pulse2percept
+
+--
+
+Technical challenge:
+
+--
+
+- Retina modeled at 25 `\(\mu m\)` resolution
+
+--
+
+- Pulse-trains modeled at 5 `\(\mu sec\)` resolution
+
+--
+
+- 3 second movie `\(\rightarrow \)`  `\(7.5 x 10^{12}\)` elements
+
+--
+
+#### Solution: parallelize and compute on Amazon Web Services
+
+---
+
+### A "virtual patient"
+
+<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/girlJumpsInPool.mov
+"/> </video>
+
+---
+
+### A "virtual patient"
+
+<video preload="auto" width="60%" height="auto" data-setup="{}" autoplay loop ><source src="./videos/girlJumpsInPool_percept_lambda6_ampmax_5.mov
+"/> </video>
 
 ---
 
@@ -618,10 +715,54 @@ Project leads from UW and from non-profit organizations in the region
 
 --
 
-
 ???
 The program consisted of 16 student-fellows, who, in teams of 4 pursued 4 different projects aimed at social good
 
+---
+
+#### Rerouting Solutions and Expensive Ride Analysis for King County Paratransit
+
+Optimizing routing to reduce costs and develop tools to aid route planning
+
+<image height="40%" src="images/paratransit-bus.png">
+
+In collaboration with the <a href="https://tcat.cs.washington.edu/">Taskar Center for Accessible Technologies</a>
+---
+
+#### Rerouting Solutions and Expensive Ride Analysis for King County Paratransit
+
+Optimizing routing to reduce costs and develop tools to aid route planning
+
+<image height="70%" src="images/paratransit1.png">
+
+---
+
+#### Open Sidewalk Graph for Accessible Trip Planning
+
+Connecting open sidewalk data through computational geometry
+
+<image src="images/sidewalk-cleaning.png" height="40%">
+
+In collaboration with the <a href="https://tcat.cs.washington.edu/">Taskar Center for Accessible Technologies</a>
+---
+
+#### Assessing Community Well-being through Open Data and Social Media
+
+Creating a score-card for neighborhoods based on open data
+
+<image src="images/report_page.png" height="40%">
+
+In collaboration with <a href="http://thirdplacetechnologies.com/">Third Place Technologies</a>
+
+---
+
+#### Family homelessness: factors leading to permanent housing
+
+Family Trajectories through Programs
+
+<image src="images/PierceTrajectories.png">
+
+---
 
 ### DSSG @ UW eScience in 2016!
 
