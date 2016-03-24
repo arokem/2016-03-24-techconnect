@@ -26,31 +26,12 @@ layout: true
 
 ---
 
-### The future is already here
-
---
-
-### ... it's just not very evenly distributed.
-                                              (William Gibson)
-
-???
-
-... the future is already here (click). It's just not very evenly distributed.
-
---
-
-The promise of data-intensive discovery
+### The future is data-driven
 
 ???
 
 In more and more research, future advances depend on our ability to record, process, analyze, and understand large, heterogeneous, noisy data. On the one hand, these are exciting times, in which we look forward to a near future in which data will be able to address many important societal challenges.
 
-
---
-
-  and the challenges
-
-???
 
 On the other hand, the data-intensive future poses some tremendous challenges.
 
@@ -157,7 +138,7 @@ Just last year, President Obama announced the Precision Medicine Iniative. This 
 
 --
 
-### The key to do this is in the data!
+### The key to do this is in data!
 
 ???
 
@@ -712,7 +693,7 @@ Technical challenge:
 
 ### Data Science for Social Good
 
-Addresses two major challenges:
+Addresses two additional challenges:
 
 ???
 
@@ -818,9 +799,16 @@ Family Trajectories through Programs
 We are very excited to welcome a new cohort of DSSG fellows and projects this summer. Applications to participate as students have already closed (in fact, we are currently reviewing the more than 200 applications to participate!), but we are still soliciting applications for project proposals. Please spread the word about this program to your friends and colleagues on campus and beyond.
 ---
 
-### Future proofing data-intensive discovery
+### The future is already here
 
-#### The eScience Institute
+--
+
+### ... it's just not very evenly distributed.
+                                              (William Gibson)
+
+???
+
+... the future is already here (click). It's just not very evenly distributed.
 
 --
 
@@ -854,7 +842,7 @@ Come to our <a href="http://escience.washington.edu/office-hours/">office hours<
 class: center
 layout: false
 
-### Get in touch!
+### Stay in touch!
 
 <div style="position:absolute; left: 220px; top:100px;">
   <img src="images/globe-xxl.png" width="100px;" style="background:none; border:none; box-shadow:none;">
